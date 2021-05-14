@@ -1,0 +1,27 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.5);
+    transform: translateZ(0);
+    transition: transform 0.15s ease-out;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.card-container:hover {
+    transform: scale(1.04);
+}
